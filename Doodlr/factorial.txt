@@ -1,0 +1,27 @@
+MAIN{
+
+  INT i;
+  INT fact;
+  INT numero;
+  INT cero;
+
+  i = 1;
+  fact = 1;
+  numero = 5;
+  cero = 0;
+
+  IF(numero < cero){
+    fact = 0;
+  }
+
+  IF(numero == cero){
+    fact = 1;
+  }
+  ELSE {
+    WHILE(i <= numero){
+      fact = fact * i;
+      i = i + 1;
+    }
+  }
+  WRITE(fact);
+}

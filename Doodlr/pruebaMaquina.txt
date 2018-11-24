@@ -1,0 +1,35 @@
+FUNCION INT intento(INT n) {
+INT F;
+INT K;
+INT P;
+
+K = 6;
+P = 7;
+
+WRITE (P);
+}
+
+MAIN  {
+INT a;
+INT b;
+INT c;
+INT e[5];
+
+a = 50;
+b = 59;
+c = 1;
+
+e[3] = 360;
+e[4] = 59;
+e[5] = 10;
+
+ESPIRAL(a,b,c);
+
+
+IF (c == 2) {
+
+} ELSE {
+ intento(a);
+}
+
+}

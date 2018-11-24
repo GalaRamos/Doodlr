@@ -1,0 +1,34 @@
+FUNCION INT factorial(INT n){
+
+  INT i;
+  INT fact;
+  INT cero;
+
+  i = 1;
+  fact = 1;
+  cero = 0;
+
+  IF(n < cero){
+    fact = 0;
+  }
+
+  IF(n == cero){
+    fact = 1;
+  }
+  ELSE {
+    WHILE(i <= n){
+      fact = fact * i;
+      i = i + 1;
+    }
+  }
+  WRITE(fact);
+
+}
+
+MAIN{
+
+  INT numero;
+  numero = 5;
+
+  factorial(numero);
+}

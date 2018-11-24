@@ -1,0 +1,33 @@
+FUNCION INT fibo(INT n) {
+
+INT add;
+INT temp;
+INT temp2;
+INT var;
+INT var2;
+
+IF(a == 0){
+add = 1;
+}
+IF(a == 1){
+add = 1;
+}
+ELSE{
+temp = add-1;
+temp2 = add-2;
+var = fibo(temp);
+var2 = fibo(temp2);
+add = var + var2;
+}
+WRITE(add);
+}
+
+
+MAIN {
+
+INT n;
+
+n = 7;
+
+fibo(n);
+}

@@ -1,0 +1,21 @@
+FUNCION INT intento(INT n, INT x) {
+INT P;
+WRITE(n);
+
+P = 7;
+
+}
+
+MAIN  {
+INT a;
+INT c;
+
+c = 3;
+
+IF (c == 2) {
+
+} ELSE {
+ intento(c, a);
+}
+a = 19;
+}

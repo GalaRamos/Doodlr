@@ -1,0 +1,39 @@
+FUNCION INT fiboR(INT n) {
+INT temp;
+temp = 2;
+INT x1;
+INT x2;
+INT next;
+
+x1 = 6;
+x2 = 10;
+next = 0;
+
+WHILE (temp < n) {
+
+  IF(temp == 1) {
+	WRITE(temp);
+   }
+
+  IF(temp == 2) {
+	WRITE(temp);
+  }
+
+  IF(temp > 2) {
+    next = x1 + x2;
+    x1 = x2;
+    x2 = next;
+  }
+  temp = temp + 1;
+ }
+WRITE(next);
+}
+
+
+MAIN {
+
+INT n;
+n = 5;
+fiboR(n);
+
+}

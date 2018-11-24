@@ -1,0 +1,22 @@
+MAIN  {
+INT a;
+INT b;
+INT c;
+INT d;
+a = 300;
+b = 59;
+c = 10;
+d = a + b + c;
+ESPIRAL(a,b,c);
+
+WHILE(c > 0){
+
+IF (c == 2) {
+ READ(a);
+} ELSE {
+ c = c - 3;
+}
+c = c - 1;
+}
+WRITE(c);
+}
